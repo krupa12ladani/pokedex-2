@@ -1,0 +1,34 @@
+.container {
+  border: solid 1px #bdbdbd;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 20px;
+  border-end-end-radius: 60px;
+  border-end-start-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #659dbd;
+  transition: transform 1s ease;
+  border: 1px solid black;
+}
+.container:hover {
+  transform: scale(1.1);
+}
+.imgContainer {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.infoContainer {
+  padding: 16px;
+}
+
+.infoContainer p {
+  margin: 0px;
+}
+
+.name {
+  font-size: 1.5rem;
+  margin-bottom: 12px !important;
+}

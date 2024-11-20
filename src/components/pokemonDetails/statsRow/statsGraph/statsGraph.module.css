@@ -1,0 +1,62 @@
+.graphContainer {
+  padding: 48px;
+  background-color: #a4a4a4;
+  padding-bottom: 56px;
+  border-radius: 8px;
+}
+
+.graphList {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+}
+
+.barContainer {
+  flex-grow: 1;
+}
+
+.barContainer {
+  background-color: white;
+  height: 200px;
+  position: relative;
+  border-radius: 4px;
+  transition: transform 1s ease;
+}
+.barContainer:hover {
+  transform: scale(1.1);
+}
+
+.bar {
+  height: 0px;
+  /* transition: all 5s ease; */
+}
+
+.statName {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px;
+  font-size: 0.8rem;
+}
+
+.barContainer div {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #30a7d7;
+  border-radius: 4px;
+}
+
+.barContainer div p {
+  margin: 0px;
+  position: absolute;
+  top: -24px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  font-weight: 600;
+}
